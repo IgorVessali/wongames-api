@@ -2,7 +2,7 @@
   "name": "wongames-api",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Backend da WonGames",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -10,7 +10,11 @@
     "strapi": "strapi"
   },
   "devDependencies": {},
-  "dependencies": {
+  "dependencies": {    
+    "@ckeditor/ckeditor5-build-classic": "^21.0.0",
+    "@ckeditor/ckeditor5-react": "^2.1.0",
+    "jsdom": "^16.3.0",
+    "slugify": "^1.4.5",
     "strapi": "3.4.1",
     "strapi-admin": "3.4.1",
     "strapi-utils": "3.4.1",
@@ -24,7 +28,7 @@
     "sqlite3": "latest"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Igor Vessali"
   },
   "strapi": {
     "uuid": "08e2d9e3-678f-4b87-904d-1e24ed169244"
