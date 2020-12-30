@@ -10,22 +10,23 @@
     "strapi": "strapi"
   },
   "devDependencies": {},
-  "dependencies": {    
+  "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^21.0.0",
     "@ckeditor/ckeditor5-react": "^2.1.0",
     "jsdom": "^16.3.0",
+    "knex": "<0.20.0",
     "slugify": "^1.4.5",
+    "sqlite3": "latest",
     "strapi": "3.4.1",
     "strapi-admin": "3.4.1",
-    "strapi-utils": "3.4.1",
-    "strapi-plugin-content-type-builder": "3.4.1",
-    "strapi-plugin-content-manager": "3.4.1",
-    "strapi-plugin-users-permissions": "3.4.1",
-    "strapi-plugin-email": "3.4.1",
-    "strapi-plugin-upload": "3.4.1",
     "strapi-connector-bookshelf": "3.4.1",
-    "knex": "<0.20.0",
-    "sqlite3": "latest"
+    "strapi-plugin-content-manager": "3.4.1",
+    "strapi-plugin-content-type-builder": "3.4.1",
+    "strapi-plugin-email": "3.4.1",
+    "strapi-plugin-graphql": "3.4.1",
+    "strapi-plugin-upload": "3.4.1",
+    "strapi-plugin-users-permissions": "3.4.1",
+    "strapi-utils": "3.4.1"
   },
   "author": {
     "name": "Igor Vessali"
